@@ -2,12 +2,23 @@ p{
     text-align: center;    
 }
 
-h1{
+.titulo-centralizado{
     text-align: center;
+}
+
+.titulo-principal{
+    padding-left: 20px;
 }
 
 em strong{
     color: #FF0000;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
 
 #missao{
@@ -24,12 +35,14 @@ em strong{
 
 .principal{
     background-color: #CCCCCC;
+    padding: 30px;
 }
 
 .beneficios{
     background: #FFFFFF;
+    padding: 20px;
 }
 
-h2{
-    text-align: center;
+.imagembeneficios{
+    width: 50%;
 }
