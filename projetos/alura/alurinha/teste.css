@@ -1,0 +1,30 @@
+.conteudo-grid{
+    width: 70%;
+    margin: auto;
+}
+.grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: flex-start;
+    height: 90px;
+}
+
+.box {
+    text-align: center;
+    height: 100%;
+    width: 100px;
+    background-color: #FDF5E6;
+    margin: 1%;
+    box-shadow: 5px 5px 5px #ccc;
+  }
+
+  .box:nth-child(10n){
+      margin-right: 0;
+  }
+
+  .box:nth-child(10n+1){
+      margin-left: 0;
+  }
+
