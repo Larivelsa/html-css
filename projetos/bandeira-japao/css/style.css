@@ -4,12 +4,12 @@ body{
     justify-content: center;
     align-items: center;
     justify-items: center;
-    width: 100vw;
-    height: 100vh;
     background: url("../img/bg.jpg");
     font-family: 'Homemade Apple', cursive;
     font-size: 16px;
     color: rgb(59, 54, 59);
+    width: 100vw;
+    height: 100vh;
 }
 
 .conteudo{
@@ -33,12 +33,11 @@ h1:hover{
 }
 
 .flamula{
-    display: flex;
     border: solid 1px #0c0c0c;
     opacity: 0.7;
     box-shadow: 10px 10px 30px #0f0f0f;
     transition: 1s;
-} 
+}
 
 .flamula:hover{
     transform: scale(1.1);
@@ -46,26 +45,20 @@ h1:hover{
     opacity: 1;
 }
 
-.retangulo-0{
+.retangulo{
     width: 50vh;
     height: 35vh;
     display: flex;
-    align-items: stretch;
-}
-
-.parte{
-    flex-grow: 1;
-}
-
-.retangulo-1{
-    background-color: green;
-}
-
-.retangulo-2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
 }
 
-.retangulo-3{
+
+.circunferencia{
+    width: 31%;
+    height: 43%;
+    border-radius: 50%;
     background-color: red;
 }
-
