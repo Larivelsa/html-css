@@ -1,3 +1,5 @@
+
+
 body{
     background: url("../img/bg.jpg");
     font-family: 'Homemade Apple', cursive;
@@ -33,9 +35,6 @@ h1:hover{
 }
 
 .flamula{
-    display: flex;
-    height: 30vh;
-    width: 100%;
     border: solid 1px #0c0c0c;
     opacity: 0.7;
     box-shadow: 10px 10px 30px #0f0f0f;
@@ -47,13 +46,13 @@ h1:hover{
     border: solid 1px #d1b40c;
     opacity: 1;
 }
-
-.partes{
-    width: 100%;
-}
-
+ 
 .retangulo{
+    width: 50vh;
+    height: 35vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: green;
 }
@@ -65,7 +64,6 @@ h1:hover{
     width: 30%;
     height: 50%;
     background-color: yellow;
-    transform: rotate(45deg);
 }
 
 .circunferencia{
@@ -73,12 +71,4 @@ h1:hover{
     height: 100px;
     background-color: blue;
     border-radius: 50%;
-}
-
-@media(max-width: 768px){
-
-    .conteudo{
-        width: 80vw;
-    }
-
 }
